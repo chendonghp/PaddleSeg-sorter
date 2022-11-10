@@ -1,0 +1,5 @@
+Deploy:
+  model: "/home/cd/PaddleSeg/output/tmp/paddle_model_static_onnx_temp_dir/model.pdmodel"
+  params: "/home/cd/PaddleSeg/output/tmp/paddle_model_static_onnx_temp_dir/model.pdiparams"
+  transforms:
+    - type: Normalize

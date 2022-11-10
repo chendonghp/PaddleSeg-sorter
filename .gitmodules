@@ -1,0 +1,3 @@
+[submodule "AutoLog"]
+	path = AutoLog
+	url = https://github.com/LDOUBLEV/AutoLog

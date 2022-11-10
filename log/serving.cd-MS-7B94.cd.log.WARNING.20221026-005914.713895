@@ -1,0 +1,149 @@
+Log file created at: 2022/10/26 00:59:14
+Running on machine: cd-MS-7B94
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W1026 00:59:14.809320 713895 resource.cpp:98] Successfully proc initialized mempool wrapper
+W1026 00:59:14.809460 713895 infer.cpp:43] Succ load model:serving_server
+W1026 00:59:14.809464 713895 infer.cpp:234] Succ proc initialize version engine: 18446744073709551615
+W1026 00:59:14.809468 713895 infer.cpp:199] Succ proc initialize engine: GeneralInferOp_0
+W1026 00:59:14.809473 713895 infer.cpp:429] Succ proc initialize engine: GeneralInferOp_0
+W1026 00:59:14.809489 713895 kv_manager.h:70] GeneralInferOp_0: 
+W1026 00:59:14.809494 713895 kv_manager.h:72] Succ proc initialize kvmanager for engine: GeneralInferOp_0
+W1026 00:59:14.810027 713895 service.cpp:50] Succ get merger: default for service: GeneralModelService
+W1026 00:59:14.810464 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 00:59:14.811987 713898 memory.cpp:54] Succ thread initialize mempool wrapper
+W1026 00:59:14.812110 713898 resource.cpp:302] Successfully thread initialized mempool wrapper
+W1026 00:59:14.812166 713898 infer.h:434] tid:713898 Loading clone model ...
+W1026 00:59:14.812173 713902 memory.cpp:54] Succ thread initialize mempool wrapper
+W1026 00:59:14.812203 713900 memory.cpp:54] Succ thread initialize mempool wrapper
+W1026 00:59:14.812175 713899 memory.cpp:54] Succ thread initialize mempool wrapper
+W1026 00:59:14.812235 713902 resource.cpp:302] Successfully thread initialized mempool wrapper
+W1026 00:59:14.812227 713901 memory.cpp:54] Succ thread initialize mempool wrapper
+W1026 00:59:14.812271 713900 resource.cpp:302] Successfully thread initialized mempool wrapper
+W1026 00:59:14.812312 713899 resource.cpp:302] Successfully thread initialized mempool wrapper
+W1026 00:59:14.812400 713905 memory.cpp:54] Succ thread initialize mempool wrapper
+W1026 00:59:14.812377 713901 resource.cpp:302] Successfully thread initialized mempool wrapper
+W1026 00:59:14.812347 713903 memory.cpp:54] Succ thread initialize mempool wrapper
+W1026 00:59:14.812462 713905 resource.cpp:302] Successfully thread initialized mempool wrapper
+W1026 00:59:14.812467 713904 memory.cpp:54] Succ thread initialize mempool wrapper
+W1026 00:59:14.812517 713903 resource.cpp:302] Successfully thread initialized mempool wrapper
+W1026 00:59:14.812584 713906 memory.cpp:54] Succ thread initialize mempool wrapper
+W1026 00:59:14.812562 713908 memory.cpp:54] Succ thread initialize mempool wrapper
+W1026 00:59:14.812551 713907 memory.cpp:54] Succ thread initialize mempool wrapper
+W1026 00:59:14.812589 713904 resource.cpp:302] Successfully thread initialized mempool wrapper
+W1026 00:59:14.812644 713906 resource.cpp:302] Successfully thread initialized mempool wrapper
+W1026 00:59:14.812669 713908 resource.cpp:302] Successfully thread initialized mempool wrapper
+W1026 00:59:14.812692 713907 resource.cpp:302] Successfully thread initialized mempool wrapper
+W1026 00:59:15.003032 713898 cache.cpp:58] No cube cache directory serving_server/cube_cache provided, ignore it
+W1026 00:59:15.003039 713898 infer.h:447] create cube cache[0] done.
+W1026 00:59:15.003044 713898 infer.h:481] [713898] Reload clone model and cube cache done. switching to current_idx[0]
+W1026 00:59:15.003052 713898 infer.cpp:254] Succ thrd initialize version engine: 18446744073709551615
+W1026 00:59:15.003100 713898 infer.cpp:440] Succ thrd initialize engine, name: GeneralInferOp_0
+W1026 00:59:15.003072 713902 infer.h:434] tid:713902 Loading clone model ...
+W1026 00:59:15.011373 713902 infer.h:474] tid:713902 clone caches done
+W1026 00:59:15.011379 713902 infer.h:481] [713902] Reload clone model and cube cache done. switching to current_idx[0]
+W1026 00:59:15.011389 713902 infer.cpp:254] Succ thrd initialize version engine: 18446744073709551615
+W1026 00:59:15.011392 713902 infer.cpp:440] Succ thrd initialize engine, name: GeneralInferOp_0
+W1026 00:59:15.011406 713900 infer.h:434] tid:713900 Loading clone model ...
+W1026 00:59:15.019469 713900 infer.h:474] tid:713900 clone caches done
+W1026 00:59:15.019554 713900 infer.h:481] [713900] Reload clone model and cube cache done. switching to current_idx[0]
+W1026 00:59:15.019580 713900 infer.cpp:254] Succ thrd initialize version engine: 18446744073709551615
+W1026 00:59:15.019594 713899 infer.h:434] tid:713899 Loading clone model ...
+W1026 00:59:15.019595 713900 infer.cpp:440] Succ thrd initialize engine, name: GeneralInferOp_0
+W1026 00:59:15.023356 713899 infer.h:474] tid:713899 clone caches done
+W1026 00:59:15.023363 713899 infer.h:481] [713899] Reload clone model and cube cache done. switching to current_idx[0]
+W1026 00:59:15.023371 713899 infer.cpp:254] Succ thrd initialize version engine: 18446744073709551615
+W1026 00:59:15.023376 713899 infer.cpp:440] Succ thrd initialize engine, name: GeneralInferOp_0
+W1026 00:59:15.023386 713901 infer.h:434] tid:713901 Loading clone model ...
+W1026 00:59:15.031612 713901 infer.h:474] tid:713901 clone caches done
+W1026 00:59:15.031630 713901 infer.h:481] [713901] Reload clone model and cube cache done. switching to current_idx[0]
+W1026 00:59:15.031654 713901 infer.cpp:254] Succ thrd initialize version engine: 18446744073709551615
+W1026 00:59:15.031670 713901 infer.cpp:440] Succ thrd initialize engine, name: GeneralInferOp_0
+W1026 00:59:15.031718 713905 infer.h:434] tid:713905 Loading clone model ...
+W1026 00:59:15.038990 713905 infer.h:474] tid:713905 clone caches done
+W1026 00:59:15.038996 713905 infer.h:481] [713905] Reload clone model and cube cache done. switching to current_idx[0]
+W1026 00:59:15.039005 713905 infer.cpp:254] Succ thrd initialize version engine: 18446744073709551615
+W1026 00:59:15.039011 713905 infer.cpp:440] Succ thrd initialize engine, name: GeneralInferOp_0
+W1026 00:59:15.039080 713903 infer.h:434] tid:713903 Loading clone model ...
+W1026 00:59:15.044236 713903 infer.h:474] tid:713903 clone caches done
+W1026 00:59:15.044242 713903 infer.h:481] [713903] Reload clone model and cube cache done. switching to current_idx[0]
+W1026 00:59:15.044279 713903 infer.cpp:254] Succ thrd initialize version engine: 18446744073709551615
+W1026 00:59:15.044296 713903 infer.cpp:440] Succ thrd initialize engine, name: GeneralInferOp_0
+W1026 00:59:15.044344 713904 infer.h:434] tid:713904 Loading clone model ...
+W1026 00:59:15.052389 713904 infer.h:474] tid:713904 clone caches done
+W1026 00:59:15.052394 713904 infer.h:481] [713904] Reload clone model and cube cache done. switching to current_idx[0]
+W1026 00:59:15.052402 713904 infer.cpp:254] Succ thrd initialize version engine: 18446744073709551615
+W1026 00:59:15.052407 713904 infer.cpp:440] Succ thrd initialize engine, name: GeneralInferOp_0
+W1026 00:59:15.052495 713906 infer.h:434] tid:713906 Loading clone model ...
+W1026 00:59:15.060068 713906 infer.h:474] tid:713906 clone caches done
+W1026 00:59:15.060082 713906 infer.h:481] [713906] Reload clone model and cube cache done. switching to current_idx[0]
+W1026 00:59:15.060099 713906 infer.cpp:254] Succ thrd initialize version engine: 18446744073709551615
+W1026 00:59:15.060110 713906 infer.cpp:440] Succ thrd initialize engine, name: GeneralInferOp_0
+W1026 00:59:15.060161 713908 infer.h:434] tid:713908 Loading clone model ...
+W1026 00:59:15.064474 713908 infer.h:474] tid:713908 clone caches done
+W1026 00:59:15.064481 713908 infer.h:481] [713908] Reload clone model and cube cache done. switching to current_idx[0]
+W1026 00:59:15.064491 713908 infer.cpp:254] Succ thrd initialize version engine: 18446744073709551615
+W1026 00:59:15.064496 713908 infer.cpp:440] Succ thrd initialize engine, name: GeneralInferOp_0
+W1026 00:59:15.064553 713907 infer.h:434] tid:713907 Loading clone model ...
+W1026 00:59:15.069736 713907 infer.h:474] tid:713907 clone caches done
+W1026 00:59:15.069746 713907 infer.h:481] [713907] Reload clone model and cube cache done. switching to current_idx[0]
+W1026 00:59:15.069756 713907 infer.cpp:254] Succ thrd initialize version engine: 18446744073709551615
+W1026 00:59:15.069763 713907 infer.cpp:440] Succ thrd initialize engine, name: GeneralInferOp_0
+W1026 00:59:24.810696 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 00:59:34.811111 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 00:59:44.811480 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 00:59:54.811801 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:00:04.812153 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:00:14.812569 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:00:24.812920 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:00:34.813251 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:00:44.813602 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:00:54.813944 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:01:04.814311 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:01:14.814668 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:01:24.814946 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:01:34.815215 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:01:44.815560 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:01:54.815899 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:02:04.816252 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:02:14.816619 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:02:24.816885 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:02:34.817229 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:02:44.817582 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:02:54.817950 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:03:04.818296 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:03:14.818743 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:03:24.819101 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:03:34.819454 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:03:44.819825 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:03:54.820174 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:04:04.820533 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:04:14.820869 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:04:24.821221 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:04:34.821573 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:04:44.821921 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:04:54.822217 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:05:04.822523 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:05:14.822821 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:05:24.823074 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:05:34.823338 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:05:44.823689 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:05:54.824033 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:06:04.824463 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:06:14.824828 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:06:24.825218 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:06:34.825574 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:06:44.825917 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:06:54.826304 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:07:04.826581 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:07:14.826844 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:07:24.827201 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:07:34.827546 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:07:44.827894 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:07:54.828244 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:08:04.828583 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:08:14.828949 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:08:24.829226 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:08:34.829576 713897 infer.cpp:286] Succ reload version engine: 18446744073709551615
+W1026 01:08:44.830101 713895 infer.cpp:243] Succ proc finalize version engine: 18446744073709551615
+W1026 01:08:44.830242 713895 infer.cpp:482] Succ proc finalize engine, name: GeneralInferOp_0
+W1026 01:08:44.830266 713895 cube_api.cpp:111] Destroy, cube meta is null
